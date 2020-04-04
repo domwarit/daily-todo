@@ -1,0 +1,32 @@
+.box {
+    width: 100vw;
+    height: 50 vh;
+    background-image: linear-gradient(rgb(235, 235, 235) 40%, #6464be,rgb(161, 75, 161));
+}
+.jumbotron{
+    text-align: center;
+}
+.container{
+    border-radius: 25px;
+}
+#btn-sm{
+    height: 35px;
+    border-radius: 70%;
+    background-color: transparent;
+    font-size: larger;
+   
+}
+#hours{
+    border-color: white;
+}
+.past{
+    background-color: #6464be ;
+}
+.present{ 
+    background-color:rgb(120, 75, 161);
+
+}
+.future{
+    background-color: rgb(161, 75, 161);
+
+}
