@@ -10,9 +10,12 @@ $(document).ready(function () {
 
     });
 
-    // function colorUpdate() {
-    //     var =
-    // }
+    $("#btn-sm-clear").on("click", function () {
+        // var clearOut = $(this).siblings(".description").val();
+        // var time = $(this).parent().attr("id");
+        $(".description").empty();
+        localStorage.clear();
+    });
 
     function hourUpdater() {
 
