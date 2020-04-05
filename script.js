@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#currentDay").text(moment().format("dddd, MMMM Do"));
 
-    $("#btn-sm").on("click", function () {
+    $(".btn-sm").on("click", function () {
         var activity = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
 
